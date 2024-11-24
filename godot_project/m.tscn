@@ -1,0 +1,265 @@
+[gd_scene load_steps=12 format=3 uid="uid://dv3wtcwvset0w"]
+
+[ext_resource type="Texture2D" uid="uid://bewiuyjle15av" path="res://backgrounds/nature2.png" id="1_2fn4q"]
+[ext_resource type="Texture2D" uid="uid://7p7i6dyklpd6" path="res://backgrounds/bg_space2.webp" id="1_nkbeh"]
+[ext_resource type="Script" path="res://m.gd" id="1_xa4xi"]
+[ext_resource type="Texture2D" uid="uid://h6a2o0p50ati" path="res://planets/planet_22.png" id="2_34hdp"]
+[ext_resource type="Texture2D" uid="uid://dson6nhxko02w" path="res://planets/planet_30.png" id="3_dutif"]
+[ext_resource type="Texture2D" uid="uid://bsecnhdpagkyc" path="res://characters/Cat2/01_Idle/__Cat_Idle_000.png" id="3_srj8k"]
+[ext_resource type="Texture2D" uid="uid://br3pntsij6gjh" path="res://backgrounds/bg_space3.webp" id="6_os5wy"]
+[ext_resource type="Texture2D" uid="uid://ckschxx81n5bd" path="res://spaceships/ship2.png" id="7_g6qu6"]
+
+[sub_resource type="Animation" id="Animation_sum3q"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Planet22:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-487, -336)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Planet22:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CatIdle000:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-512, 184)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("CatIdle000:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.125335]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Ship2:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1053, -341)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Ship2:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.318878]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Planet30:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1315, -311)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Planet30:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.306932]
+}
+
+[sub_resource type="Animation" id="Animation_44akc"]
+resource_name = "h"
+length = 14.495
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Planet22:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.1, 2.06667, 3.1, 4.03333, 5.1, 6.1, 7, 8, 9.3845, 10, 13.7, 14.495),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-442, -240), Vector2(550, -292), Vector2(-503, -307), Vector2(605, 192), Vector2(-458, -298), Vector2(-181, -54), Vector2(19.9999, 15), Vector2(-6.5, 8.50001), Vector2(282, -194), Vector2(573, 164), Vector2(309, 177), Vector2(936, -146), Vector2(1793, -768)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Planet22:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.03333, 1.96667, 3.03333, 3.96667, 4.9, 5.93333, 6.76667, 7.8, 9.1, 10),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 1.12513, 4.20171, 6.52883, 4.40311, 7.09313, 6.74346, 6.29342, 7.13709, 6.11219, 6.26594]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CatIdle000:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.2, 2.13333, 4.03333, 6.03333, 10, 11.9, 12.7667, 13.4667, 13.7, 14.495),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-731, 165), Vector2(-512, 184), Vector2(-432, 195), Vector2(-376, 203), Vector2(-312, 203), Vector2(-253, 200), Vector2(-168, 205), Vector2(-18, 216), Vector2(19, 219), Vector2(136, 131), Vector2(1687, -991)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("CatIdle000:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(3.1, 5.1, 7.03333, 8.03333, 9.03333, 10, 10.5, 10.9333, 11.4333, 13.0333, 13.3333, 13.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.125335, 0.525971, 0.771978, 1.57344, 1.45796, 1.17706, 0.902188, 0.387872, 0.0159971, -0.049116, -0.203816, 0.0693424]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Ship2:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 1, 1.93333, 2.96667, 3.93333, 4.96667, 11.1667, 11.5, 13.4333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1084.55, -382.272), Vector2(1257, -305), Vector2(1309, -253), Vector2(1397, -137), Vector2(1493, 7), Vector2(1625, 199), Vector2(1689, 123), Vector2(1645, 139), Vector2(4385, -721)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Ship2:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 11.1667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [-0.017075, -0.318878]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Planet30:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.966667, 2.03333, 2.96667, 3.76667, 6.33333, 7.33333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1327.35, -580.553), Vector2(1345, -279), Vector2(1415, -203), Vector2(1507, -243), Vector2(567, -247), Vector2(1367, -135), Vector2(1327, -271)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Planet30:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(2.03333, 5.3, 9.06667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [-0.306932, 0.508633, -0.0233352]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wte4x"]
+_data = {
+"RESET": SubResource("Animation_sum3q"),
+"h": SubResource("Animation_44akc")
+}
+
+[node name="M" type="Node2D"]
+script = ExtResource("1_xa4xi")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(1615, -368)
+zoom = Vector2(0.3, 0.43)
+
+[node name="BgSpace2" type="Sprite2D" parent="."]
+position = Vector2(1265, -363)
+scale = Vector2(1.70654, 1.48633)
+texture = ExtResource("1_nkbeh")
+
+[node name="Nature2" type="Sprite2D" parent="."]
+position = Vector2(-365, -356)
+scale = Vector2(3.54633, 4.34188)
+texture = ExtResource("1_2fn4q")
+
+[node name="Planet30" type="Sprite2D" parent="."]
+position = Vector2(1315, -311)
+rotation = -0.306932
+scale = Vector2(1.26866, 1.21925)
+texture = ExtResource("3_dutif")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_wte4x")
+}
+
+[node name="Planet22" type="Sprite2D" parent="."]
+position = Vector2(-487, -336)
+scale = Vector2(0.882273, 0.842046)
+texture = ExtResource("2_34hdp")
+
+[node name="CatIdle000" type="Sprite2D" parent="."]
+position = Vector2(-512, 184)
+rotation = 0.125335
+scale = Vector2(-0.896528, 0.871823)
+texture = ExtResource("3_srj8k")
+
+[node name="BgSpace3" type="Sprite2D" parent="."]
+position = Vector2(3483.5, -612.5)
+scale = Vector2(2.66309, 1.94043)
+texture = ExtResource("6_os5wy")
+
+[node name="Ship2" type="Sprite2D" parent="."]
+position = Vector2(1053, -341)
+rotation = -0.318878
+scale = Vector2(0.41934, 0.373418)
+texture = ExtResource("7_g6qu6")
